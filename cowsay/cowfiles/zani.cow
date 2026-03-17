@@ -1,0 +1,16 @@
+$the_cow = <<EOC;
+    $thoughts
+                 :XMMM:                 
+      XMWW.     :XWMMMMWd      ,  ,     
+     oMMMNN0 0O WWMd  OMMK    .    .    
+     0MN kWMx.XKOO0XM';MMM.   .    .    
+ ... OMM.:NO..'      ,xWMW    . l       
+o  :  KMX;  o;:kx;      lN              
+       K   ,'.            ,l0K          
+    :MN.     :,     .    odXMK          
+    .N,      ;,      .   oXMMW          
+      .    . d:      .  ;xKMMWK         
+      ,.   O.    :.     0OccXkKMMMl     
+      .c;..K...,.l';c,o0XO:.c;kWxMMMMW  
+                     c    0XoOON0.      
+EOC
