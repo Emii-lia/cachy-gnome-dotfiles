@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Kando
+GenericName=
+Comment=
+Icon=
+Hidden=false
+Exec=kando
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=5

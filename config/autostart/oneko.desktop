@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Oneko
+GenericName=
+Comment=
+Icon=
+Hidden=false
+Exec=oneko -sakura &
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=5
+

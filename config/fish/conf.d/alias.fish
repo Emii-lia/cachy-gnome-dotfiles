@@ -1,0 +1,1 @@
+alias yamete="shutdown now"

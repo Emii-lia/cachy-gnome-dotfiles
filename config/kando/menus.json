@@ -1,0 +1,807 @@
+{
+  "version": "2.2.0",
+  "menus": [
+    {
+      "root": {
+        "type": "submenu",
+        "name": "web",
+        "icon": "globe_book",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "command",
+            "data": {
+              "command": "/usr/lib/librewolf/librewolf",
+              "delayed": false
+            },
+            "name": "LibreWolf",
+            "icon": "librewolf",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "/usr/lib/firefox/firefox",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "Firefox",
+            "icon": "firefox",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "protonvpn-app",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "Proton VPN",
+            "icon": "proton-vpn-logo",
+            "iconTheme": "system"
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Web URLS",
+            "icon": "curl",
+            "iconTheme": "simple-icons",
+            "children": [
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://vercel.com/emii-lias-projects"
+                },
+                "name": "Vercel Dashboard",
+                "icon": "vercel",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://dash.cloudflare.com/"
+                },
+                "name": "Cloudflare Dashboard",
+                "icon": "cloudflare",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://github.com/Emii-lia"
+                },
+                "name": "Github profile",
+                "icon": "github",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://fiaro.app"
+                },
+                "name": "Portfolio",
+                "icon": "https://avatars.githubusercontent.com/u/97010292?v=4",
+                "iconTheme": "base64"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "discord.com/app"
+                },
+                "name": "Discord",
+                "icon": "discord",
+                "iconTheme": "simple-icons"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://youtube.com"
+                },
+                "name": "Youtube",
+                "icon": "youtube_activity",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          }
+        ]
+      },
+      "shortcut": "Shift+Alt+W",
+      "shortcutID": "web",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "web"
+      ]
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "dev",
+        "icon": "developer_mode_tv",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "command",
+            "data": {
+              "command": "webstorm",
+              "delayed": false
+            },
+            "name": "Webstorm",
+            "icon": "webstorm",
+            "iconTheme": "simple-icons"
+          },
+          {
+            "type": "text",
+            "data": {
+              "text": "GITHUB_TOKEN"
+            },
+            "name": "Github token",
+            "icon": "github",
+            "iconTheme": "simple-icons"
+          },
+          {
+            "type": "command",
+            "name": "MongoDB Compass",
+            "icon": "mongodb",
+            "iconTheme": "simple-icons",
+            "data": {
+              "command": "mongodb-compass",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            }
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "rustrover",
+              "delayed": false
+            },
+            "name": "Rustrover",
+            "icon": "rust",
+            "iconTheme": "simple-icons"
+          }
+        ]
+      },
+      "shortcut": "Shift+Alt+D",
+      "shortcutID": "dev",
+      "centered": true,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "dev"
+      ]
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "utilities",
+        "icon": "service_toolbox",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "command",
+            "data": {
+              "command": "nautilus --new-window",
+              "delayed": false
+            },
+            "name": "Files",
+            "icon": "org.gnome.Nautilus",
+            "iconTheme": "system"
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Libreoffice",
+            "icon": "book_5",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "libreoffice --base",
+                  "delayed": false
+                },
+                "name": "Base",
+                "icon": "database",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "libreoffice --draw",
+                  "delayed": false
+                },
+                "name": "Draw",
+                "icon": "draw",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "libreoffice --math",
+                  "delayed": false
+                },
+                "name": "Math",
+                "icon": "calculate",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "libreoffice --calc",
+                  "delayed": false
+                },
+                "name": "Calc",
+                "icon": "table",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "libreoffice --impress",
+                  "delayed": false
+                },
+                "name": "Impress",
+                "icon": "slide_library",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "libreoffice --writer",
+                  "delayed": false
+                },
+                "name": "Writer",
+                "icon": "docs",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "libreoffice --global",
+                  "delayed": false
+                },
+                "name": "Global",
+                "icon": "document_scanner",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "/usr/bin/cachyos-pi",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "CachyOS Package Installer",
+            "icon": "cachyos-pi",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "balena-etcher",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "balenaEtcher",
+            "icon": "usb-creator-kde",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "kitty",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "kitty",
+            "icon": "kitty",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "stacer",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "Stacer",
+            "icon": "stacer",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "gnome-disks",
+              "delayed": false
+            },
+            "name": "Disks",
+            "icon": "org.gnome.DiskUtility",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "gpick",
+              "delayed": false
+            },
+            "name": "Gpick",
+            "icon": "gpick",
+            "iconTheme": "system"
+          }
+        ]
+      },
+      "shortcut": "Shift+Alt+Q",
+      "shortcutID": "utilities",
+      "centered": true,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "utilities"
+      ]
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "games",
+        "icon": "stadia_controller",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "command",
+            "data": {
+              "command": "/opt/Heroic/heroic",
+              "delayed": false
+            },
+            "name": "Heroic Games Launcher",
+            "icon": "heroic",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "protonplus",
+              "delayed": false
+            },
+            "name": "ProtonPlus",
+            "icon": "com.vysp3r.ProtonPlus",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "java -jar ~/TLauncher/TLauncher.jar",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "TLauncher",
+            "icon": "data:image/jpeg;base64,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",
+            "iconTheme": "base64"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "/usr/bin/steam",
+              "delayed": false
+            },
+            "name": "Steam",
+            "icon": "steam",
+            "iconTheme": "system"
+          }
+        ]
+      },
+      "shortcut": "Shift+Alt+E",
+      "shortcutID": "games",
+      "centered": true,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "games"
+      ]
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "office",
+        "icon": "book_5",
+        "iconTheme": "material-symbols-rounded",
+        "children": []
+      },
+      "shortcut": "",
+      "shortcutID": "office",
+      "centered": true,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "office"
+      ]
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Customisation",
+        "icon": "dashboard_customize",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "command",
+            "data": {
+              "command": "conky-manager2",
+              "delayed": false
+            },
+            "name": "Conky Manager",
+            "icon": "conky-logomark-violet",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "/usr/bin/flatpak run --branch=stable --arch=x86_64 --command=extension-manager --file-forwarding com.mattjakeman.ExtensionManager @@u  @@",
+              "delayed": false
+            },
+            "name": "Extension Manager",
+            "icon": "com.mattjakeman.ExtensionManager",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "xpenguins",
+              "detached": true,
+              "isolated": false,
+              "delayed": false
+            },
+            "name": "xpenguins",
+            "icon": "🐧",
+            "iconTheme": "emoji"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "gnome-tweaks",
+              "delayed": false
+            },
+            "name": "Tweaks",
+            "icon": "org.gnome.tweaks",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "gnome-control-center",
+              "delayed": false
+            },
+            "name": "Settings",
+            "icon": "org.gnome.Settings",
+            "iconTheme": "system"
+          }
+        ]
+      },
+      "shortcut": "Shift+Alt+Z",
+      "shortcutID": "",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "customisation"
+      ]
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Media",
+        "icon": "stock_media",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "command",
+            "data": {
+              "command": "audacious",
+              "delayed": false
+            },
+            "name": "Audacious",
+            "icon": "audacious",
+            "iconTheme": "system"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "blender",
+              "delayed": false
+            },
+            "name": "Blender",
+            "icon": "blender",
+            "iconTheme": "system"
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Playlists",
+            "icon": "queue_music",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "file",
+                "data": {
+                  "path": "/home/emiii/dwhelper/Jacob_Collier"
+                },
+                "name": "Jacob_Collier",
+                "icon": "file-item.svg",
+                "iconTheme": "kando"
+              },
+              {
+                "type": "file",
+                "data": {
+                  "path": "/home/emiii/dwhelper/Lizzy McAlpine"
+                },
+                "name": "Lizzy McAlpine",
+                "icon": "file-item.svg",
+                "iconTheme": "kando"
+              },
+              {
+                "type": "file",
+                "data": {
+                  "path": "/home/emiii/dwhelper/Genshin_OST"
+                },
+                "name": "Genshin_OST",
+                "icon": "file-item.svg",
+                "iconTheme": "kando"
+              },
+              {
+                "type": "file",
+                "data": {
+                  "path": "/home/emiii/Music/Les 2 mins du peuple"
+                },
+                "name": "Les 2 mins du peuple",
+                "icon": "file-item.svg",
+                "iconTheme": "kando"
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Music making",
+            "icon": "music_note_2",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "qjackctl -platform xcb",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "QjackCtl",
+                "icon": "org.rncbc.qjackctl",
+                "iconTheme": "system"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "vmpk",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "VMPK",
+                "icon": "vmpk",
+                "iconTheme": "system"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "qsynth -platform xcb",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Qsynth",
+                "icon": "org.rncbc.qsynth",
+                "iconTheme": "system"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "env GDK_BACKEND=x11 UBUNTU_MENUPROXY=0 audacity",
+                  "detached": true,
+                  "isolated": false,
+                  "delayed": false
+                },
+                "name": "Audacity",
+                "icon": "audacity",
+                "iconTheme": "system"
+              }
+            ]
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "gnome-screenshot --interactive",
+              "delayed": false
+            },
+            "name": "Screenshot",
+            "icon": "org.gnome.Screenshot",
+            "iconTheme": "system"
+          }
+        ]
+      },
+      "shortcut": "Shift+Alt+S",
+      "shortcutID": "",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Template",
+        "icon": "target",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "command",
+            "data": {
+              "command": "",
+              "delayed": false
+            },
+            "name": "Run Command",
+            "icon": "terminal",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "",
+              "delayed": false
+            },
+            "name": "Run Command",
+            "icon": "terminal",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "",
+              "delayed": false
+            },
+            "name": "Run Command",
+            "icon": "terminal",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "",
+              "delayed": false
+            },
+            "name": "Run Command",
+            "icon": "terminal",
+            "iconTheme": "material-symbols-rounded"
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "template"
+      ]
+    },
+    {
+      "root": {
+        "type": "submenu",
+        "name": "Office",
+        "icon": "book_5",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "command",
+            "data": {
+              "command": "libreoffice --draw",
+              "delayed": false
+            },
+            "name": "Draw",
+            "icon": "draw",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "libreoffice --impress",
+              "delayed": false
+            },
+            "name": "Impress",
+            "icon": "slide_library",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "libreoffice --math",
+              "delayed": false
+            },
+            "name": "Math",
+            "icon": "calculate",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "libreoffice --base",
+              "delayed": false
+            },
+            "name": "Base",
+            "icon": "terminal",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "libreoffice --global",
+              "delayed": false
+            },
+            "name": "Global",
+            "icon": "document_scanner",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "libreoffice --calc",
+              "delayed": false
+            },
+            "name": "Calc",
+            "icon": "table",
+            "iconTheme": "material-symbols-rounded"
+          },
+          {
+            "type": "command",
+            "data": {
+              "command": "libreoffice --writer",
+              "delayed": false
+            },
+            "name": "Writer",
+            "icon": "docs",
+            "iconTheme": "material-symbols-rounded"
+          }
+        ]
+      },
+      "shortcut": "",
+      "shortcutID": "",
+      "centered": false,
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [
+        "template"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "name": "Favorites",
+      "icon": "favorite",
+      "iconTheme": "material-symbols-rounded",
+      "tags": [
+        "favs"
+      ]
+    }
+  ]
+}

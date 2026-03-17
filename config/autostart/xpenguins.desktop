@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Xpenguins
+GenericName=
+Comment=
+Icon=
+Hidden=false
+Exec=xpenguins --nomenu  &
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=5
