@@ -52,24 +52,6 @@
               {
                 "type": "uri",
                 "data": {
-                  "uri": "https://vercel.com/emii-lias-projects"
-                },
-                "name": "Vercel Dashboard",
-                "icon": "vercel",
-                "iconTheme": "simple-icons"
-              },
-              {
-                "type": "uri",
-                "data": {
-                  "uri": "https://dash.cloudflare.com/"
-                },
-                "name": "Cloudflare Dashboard",
-                "icon": "cloudflare",
-                "iconTheme": "simple-icons"
-              },
-              {
-                "type": "uri",
-                "data": {
                   "uri": "https://github.com/Emii-lia"
                 },
                 "name": "Github profile",
